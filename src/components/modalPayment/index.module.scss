@@ -23,13 +23,17 @@
   .modal {
     position: relative;
     border: 2px solid $grey-50;
+
     width: 600px;
+
     height: 480px;
     border-radius: $borderRadius;
     background-color: $black;
     z-index: 11;
     @include mobile {
+
       width: 100%;
+
     }
 
     .btnClose {
@@ -106,12 +110,14 @@
 
     .confirmationBtn {
       width: 200px;
+
       height: 2rem;
       letter-spacing: $letterSpacing;
       border-radius: 24px;
       background: $grey-400;
       color: $white;
       border: none;
+
       text-transform: capitalize;
       transition: $transition;
       cursor: pointer;

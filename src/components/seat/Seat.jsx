@@ -10,10 +10,12 @@ const Seat = ({
   selectedHour,
 }) => {
   const onHandleClick = (seatNumber) => {
+
     if (selectedHour) {
       if (!seatData) {
         if (isSelected) {
           setCount((prev) => prev - 1);
+
         } else {
           setCount((prev) => prev + 1);
         }

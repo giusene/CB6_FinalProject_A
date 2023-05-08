@@ -158,11 +158,13 @@ const CinemaRoom = ({
           ))}
         </section>
 
+
         <div
           className={`${styles.pickTime} ${!selectedHour && styles.notVisible}`}
         >
           ...CHOOSE YOUR SEATS
         </div>
+
 
         <div
           className={`${styles.middleInfoWrapper} flex justify-content-center align-items-center`}
